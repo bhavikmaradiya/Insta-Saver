@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="496.0" prefWidth="636.0"
+      style="-fx-border-radius: 0; -fx-border-color: #4A4545; -fx-border-width: 0; -fx-background-color: #ECECEC;"
+      xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="sample.Controller">
+    <children>
+        <TextField fx:id="urlField" focusTraversable="false" layoutX="29.0" layoutY="80.0" prefHeight="30.0"
+                   prefWidth="408.0" promptText="Enter Post Url">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </TextField>
+        <Button fx:id="saveBtn" focusTraversable="false" layoutX="479.0" layoutY="80.0" mnemonicParsing="false"
+                prefHeight="30.0" prefWidth="117.0" text="Save">
+            <cursor>
+                <Cursor fx:constant="DEFAULT"/>
+            </cursor>
+            <effect>
+                <DropShadow blurType="GAUSSIAN" height="6.17" offsetX="2.0" offsetY="1.0" radius="6.2925">
+                    <color>
+                        <Color opacity="0.7956521511077881"/>
+                    </color>
+                </DropShadow>
+            </effect>
+        </Button>
+        <MenuBar prefHeight="25.0" prefWidth="636.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem fx:id="selectDestination" mnemonicParsing="false" onAction="#selectDestinationPath"
+                                  text="Choose Destinantion"/>
+                        <MenuItem mnemonicParsing="false" onAction="#openInstaPage" text="Follow and Support"/>
+                        <MenuItem mnemonicParsing="false" fx:id="close" text="Close"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+</Pane>

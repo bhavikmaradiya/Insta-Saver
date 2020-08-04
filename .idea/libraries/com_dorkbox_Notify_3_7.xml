@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="com.dorkbox:Notify:3.7" type="repository">
+    <properties maven-id="com.dorkbox:Notify:3.7" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/dorkbox/Notify/3.7/Notify-3.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/dorkbox/TweenEngine/8.3/TweenEngine-8.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/dorkbox/ObjectPool/2.11/ObjectPool-2.11.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.9/slf4j-api-1.7.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
